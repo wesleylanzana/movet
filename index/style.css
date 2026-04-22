@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* PROFILE */
+.avatar {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 18px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: black;
+}
+
+/* LINKS */
+.links {
+    margin-top: 20px;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 10px;
+
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+
+    transition: 0.2s;
+}
+
+.link-card i {
+    width: 25px;
+}
+
+.link-card:hover {
+    background: #eaeaea;
+}
+
+/* BUTTON */
+.theme-btn {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.cta {
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.cta:hover {
+    opacity: 0.8;
+}
+
+.link-card {
+    display: block;
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.link-card:hover {
+    transform: scale(1.02);
+    background: #f0f0f0;
+}
+
+a{
+  text-decoration: none; /* remove sublinhado */
+  color: inherit; /* usa a cor do elemento pai */
+}
+
+.developer{
+  margin-top: 15px;
+}
